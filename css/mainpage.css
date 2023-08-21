@@ -1,0 +1,168 @@
+
+/* Navbar styling */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    z-index: 1;
+}
+
+ul {
+    position: relative;
+    float: right;
+    margin-right: 20px;
+}
+
+ul li {
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    /* margin: 0 10px; */
+    margin-top: 10px;
+    padding-left: 8px;
+}
+
+nav ul li a {
+    /* margin-top: 5px; */
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #F5A623;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Section 1 styling */
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-image: url(../bg_pic/school_management.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img_text {
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px #333;
+    margin-right: 50px;
+}
+
+.main_img {
+    height: 300px;
+    width: 500px;
+}
+
+/* Container styling */
+.container {
+    margin-top: 50px;
+}
+
+.welcome_img {
+    height: 300px;
+    width: 100%;
+}
+
+/* Teacher and course card styling */
+.teacher {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+h3,
+h4,
+h5 {
+    margin: 10px 0;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.adm {
+    margin-top: 50px;
+    font-weight: bold;
+    color: #F5A623;
+}
+
+.btn-success {
+    background-color: #F5A623!important;
+    border: none!important;
+    border-radius: 5px!important;
+    color: #fff!important;
+    padding: 10px 20px!important;
+    font-weight: bold!important;
+}
+
+.btn-success:hover {
+    background-color: #F59020!important;
+    cursor: pointer!important;
+}
+
+.input_deg {
+    width: 30%;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid blue;
+}
+
+.adm_int {
+    padding-top: 10px;
+}
+
+.input_txt {
+    width: 30%;
+    height: 120px;
+    border-radius: 8px;
+    border: 1px solid blue;
+}
+
+.admission_form {
+    padding-bottom: 20px;
+}
+
+footer {
+    background-color: skyblue;
+}
+
+footer .container{
+    padding-top: 15px;
+}
+
+.fab{
+    padding-right: 10px;
+    
+}
